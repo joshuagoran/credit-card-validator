@@ -1,0 +1,31 @@
+{
+  "name": "credit-card-validator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "build": "parcel build",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-typescript": "^7.17.12",
+    "@parcel/babel-preset-env": "^2.6.0",
+    "@types/jest": "^28.1.1",
+    "@types/react": "^18.0.13",
+    "@types/react-dom": "^18.0.5",
+    "babel-jest": "^28.1.1",
+    "jest": "^28.1.1",
+    "parcel": "^2.6.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
+    "@mui/material": "^5.8.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
